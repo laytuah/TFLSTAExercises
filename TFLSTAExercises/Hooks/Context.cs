@@ -13,7 +13,8 @@ namespace TFLSTAExercises.Hooks
     public class Context
     {
         public IWebDriver driver;
-        public string baseUrl = "https://tfl.gov.uk/";
+        //public string baseUrl = "https://tfl.gov.uk/";
+        string baseUrl = EnvironmentData.baseUrl;
 
         public void LaunchTFLApplication()
         {
@@ -21,6 +22,15 @@ namespace TFLSTAExercises.Hooks
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl(baseUrl);
+        }
+
+        public void TakeScreenshotAtThePointOfTestFailure(string directory, string scenarioName)
+        {
+            Screenshot screenshot = ((ITakesScreenshot)driver).GetScreenshot();
+            string path = directory + scenarioName + DateTime.Now.ToString("yyyy-MM-dd") + ".png";
+            string Screenshot = screenshot.AsBase64EncodedString;
+            byte[] screenshotAsByteArray = screenshot.AsByteArray;
+            screenshot.SaveAsFile(path, ScreenshotImageFormat.Png);
         }
 
         public void CloseTFLApplication()
