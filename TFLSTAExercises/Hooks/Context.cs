@@ -13,8 +13,8 @@ namespace TFLSTAExercises.Hooks
     public class Context
     {
         public IWebDriver driver;
-        //public string baseUrl = "https://tfl.gov.uk/";
-        string baseUrl = EnvironmentData.baseUrl;
+        public string baseUrl = "https://tfl.gov.uk/";
+        //string baseUrl = EnvironmentData.baseUrl;
 
         public void LaunchTFLApplication()
         {
