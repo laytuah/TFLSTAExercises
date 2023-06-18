@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using BoDi;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
@@ -13,8 +14,8 @@ namespace TFLSTAExercises.Hooks
     public class Context
     {
         public IWebDriver driver;
-        public string baseUrl = "https://tfl.gov.uk/";
-        //string baseUrl = EnvironmentData.baseUrl;
+        //public string baseUrl = "https://tfl.gov.uk/";
+        string baseUrl = EnvironmentData.baseUrl;
 
         public void LaunchTFLApplication()
         {
@@ -35,7 +36,7 @@ namespace TFLSTAExercises.Hooks
 
         public void CloseTFLApplication()
         {
-            driver.Quit();
+            driver?.Quit();
         }
     }
 }

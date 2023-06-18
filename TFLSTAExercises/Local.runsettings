@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?> 
-<Runsettings>
+<RunSettings>
 	<TestRunParameters>
 		<Parameter name="baseUrl" value="https://tfl.gov.uk/" />
 	</TestRunParameters>
-</Runsettings>
+</RunSettings>
