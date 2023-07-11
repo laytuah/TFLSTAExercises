@@ -245,7 +245,7 @@ this.FeatureBackground();
   testRunner.When("a user clicks on the arriving option button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 35
-  testRunner.And("a user selects \'Sun 02 Jul\' from the date dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+  testRunner.And("a user selects \'Wed 09 Aug\' from the date dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 36
   testRunner.And("a user selects selects \'17:30\' from the time dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
