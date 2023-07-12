@@ -11,7 +11,7 @@ Scenario: 01_Verify that a valid journey can be planned using the widget
 		And a user fills-in the To text field with 'bolton'
 		And a user clicks on 'bolton rail station' from the list suggested for To field
 		And a user clicks on plan my journey button
-		Then a journey result page showing 'Earlier journeys' must be loaded
+		Then a journey result page showing 'Earlier journey' must be loaded
 
 Scenario: 02_Verify that the widget is unable to provide results when an invalid journey is planned
 		When a user fills-in the From text field with 'barnsley'
@@ -35,7 +35,7 @@ Scenario: 04_Verify change time link on the journey planner displays “Arriving
 		And a user selects 'Wed 09 Aug' from the date dropdown
 		And a user selects selects '17:30' from the time dropdown
 		And a user clicks on plan my journey button
-		Then a journey result page showing 'Earlier journeys' must be loaded
+		Then a journey result page showing 'Earlier journey' must be loaded
 
 Scenario: 05_On the Journey results page, verify that a journey can be amended by using the “Edit Journey” button.
 		When a user fills-in the From text field with 'barnsley'
@@ -48,7 +48,7 @@ Scenario: 05_On the Journey results page, verify that a journey can be amended b
 		And a user fills-in the To text field with 'ilford'
 		And a user clicks on 'ilford rail station' from the list of suggested for edit
 		And a user clicks on Update Journey button
-		Then a journey result page showing 'Earlier journeys' must be loaded
+		Then a journey result page showing 'Earlier journey' must be loaded
 
 Scenario: 06_Verify that the “Recents” tab on the widget displays a list of recently planned journeys.
 		#Pre-requisite: At least one journey must recently be planned.
@@ -59,4 +59,4 @@ Scenario: 06_Verify that the “Recents” tab on the widget displays a list of 
 		And a user clicks on plan my journey button
 		And a user clicks the Home icon
 		And a user clicks on the Recents link
-		Then a list of recent journeys must be displayed with 'Turn off / clear' link below the list
+		Then a list of recent journeys must be displayed with 'Turn off / clearg' link below the list

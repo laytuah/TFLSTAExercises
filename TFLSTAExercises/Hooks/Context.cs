@@ -28,7 +28,7 @@ namespace TFLSTAExercises.Hooks
         public void TakeScreenshotAtThePointOfTestFailure(string directory, string scenarioName)
         {
             Screenshot screenshot = ((ITakesScreenshot)driver).GetScreenshot();
-            string path = directory + scenarioName + DateTime.Now.ToString("yyyy-MM-dd") + ".png";
+            string path = directory + scenarioName + DateTime.Now.ToString("yyyy-MM-dd-hh-mm-ss") + ".png";
             string Screenshot = screenshot.AsBase64EncodedString;
             byte[] screenshotAsByteArray = screenshot.AsByteArray;
             screenshot.SaveAsFile(path, ScreenshotImageFormat.Png);

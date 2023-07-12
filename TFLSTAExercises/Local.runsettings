@@ -2,5 +2,6 @@
 <RunSettings>
 	<TestRunParameters>
 		<Parameter name="baseUrl" value="https://tfl.gov.uk/" />
+		<Parameter name="connectionString" value="Integrated Security=True;Initial Catalog=;Data Source=RUQQZZZ\SQLEXPRESS" />
 	</TestRunParameters>
 </RunSettings>

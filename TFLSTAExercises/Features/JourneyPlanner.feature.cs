@@ -121,7 +121,7 @@ this.FeatureBackground();
   testRunner.And("a user clicks on plan my journey button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 14
-  testRunner.Then("a journey result page showing \'Earlier journeys\' must be loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("a journey result page showing \'Earlier journey\' must be loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -254,7 +254,7 @@ this.FeatureBackground();
   testRunner.And("a user clicks on plan my journey button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 38
-  testRunner.Then("a journey result page showing \'Earlier journeys\' must be loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("a journey result page showing \'Earlier journey\' must be loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -313,7 +313,7 @@ this.FeatureBackground();
   testRunner.And("a user clicks on Update Journey button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 51
-  testRunner.Then("a journey result page showing \'Earlier journeys\' must be loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("a journey result page showing \'Earlier journey\' must be loaded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -363,8 +363,8 @@ this.FeatureBackground();
   testRunner.And("a user clicks on the Recents link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 62
-  testRunner.Then("a list of recent journeys must be displayed with \'Turn off / clear\' link below th" +
-                        "e list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("a list of recent journeys must be displayed with \'Turn off / clearg\' link below t" +
+                        "he list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
