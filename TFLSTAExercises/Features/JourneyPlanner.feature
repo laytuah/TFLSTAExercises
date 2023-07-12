@@ -59,4 +59,4 @@ Scenario: 06_Verify that the “Recents” tab on the widget displays a list of 
 		And a user clicks on plan my journey button
 		And a user clicks the Home icon
 		And a user clicks on the Recents link
-		Then a list of recent journeys must be displayed with 'Turn off / clearg' link below the list
+		Then a list of recent journeys must be displayed with 'Turn off / clear' link below the list

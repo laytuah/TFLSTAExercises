@@ -174,7 +174,7 @@ namespace TFLSTAExercises.StepDefinition
         [BeforeTestRun]
         public static void ReportGenerator()
         {
-            var testResultReport = new ExtentHtmlReporter(AppDomain.CurrentDomain.BaseDirectory + @"\TestResult.html");
+            var testResultReport = new ExtentV3HtmlReporter(AppDomain.CurrentDomain.BaseDirectory + @"\TestResult.html");
             testResultReport.Config.Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Dark;
             report = new ExtentReports();
             report.AttachReporter(testResultReport);

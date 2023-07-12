@@ -363,8 +363,8 @@ this.FeatureBackground();
   testRunner.And("a user clicks on the Recents link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 62
-  testRunner.Then("a list of recent journeys must be displayed with \'Turn off / clearg\' link below t" +
-                        "he list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("a list of recent journeys must be displayed with \'Turn off / clear\' link below th" +
+                        "e list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
