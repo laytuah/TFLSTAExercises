@@ -14,7 +14,6 @@ namespace TFLSTAExercises.StepDefinition
     [Binding]
     public class JourneyPlannerSteps
     {
-        //
         Homepage homepage;
         Context context;
         JourneyResultPage journeyResultPage;
