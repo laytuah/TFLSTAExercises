@@ -32,7 +32,7 @@ Scenario: 04_Verify change time link on the journey planner displays “Arriving
 		And a user clicks on Change Time link
 		Then a user must see the 'Arriving' option
 		When a user clicks on the arriving option button
-		And a user selects 'Wed 09 Aug' from the date dropdown
+		And a user selects 'Sun 19 Nov' from the date dropdown
 		And a user selects selects '17:30' from the time dropdown
 		And a user clicks on plan my journey button
 		Then a journey result page showing 'Earlier journey' must be loaded
